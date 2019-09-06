@@ -1,0 +1,83 @@
+GraphTest.java starts
+------------ 2.txt --------------------
+Num Vertices = 5
+Num Edges    = 5
+Work done    = 10
+Has Cycle    = NO
+DFS order = 1 2 4 5 3
+There is no need to verify DFS order
+------------ 3.txt --------------------
+Num Vertices = 5
+Num Edges    = 6
+Work done    = 11
+Has Cycle    = YES
+DFS order = 0 1 3 4 2
+There is no need to verify DFS order
+------------ 7.txt --------------------
+Num Vertices = 7
+Num Edges    = 12
+Work done    = 19
+Has Cycle    = NO
+DFS order = 0 2 5 6 4 3 1
+There is no need to verify DFS order
+------------ 8.txt --------------------
+Num Vertices = 5
+Num Edges    = 10
+Work done    = 10
+Has Cycle    = YES
+This order has no meaning
+------------ 1.txt --------------------
+Num Vertices = 5
+Num Edges    = 8
+Work done    = 9
+Has Cycle    = NO
+This order has no meaning
+------------ 4.txt --------------------
+Num Vertices = 3
+Num Edges    = 3
+Work done    = 6
+Has Cycle    = NO
+DFS order = A B C
+There is no need to verify DFS order
+------------ 9.txt --------------------
+Num Vertices = 3
+Num Edges    = 3
+Work done    = 6
+Has Cycle    = YES
+DFS order = A B C
+There is no need to verify DFS order
+------------ tinyDG.txt --------------------
+Num Vertices = 13
+Num Edges    = 22
+Work done    = 35
+Has Cycle    = YES
+DFS order = 7 9 10 12 11 4 2 3 5 0 1 6 8
+There is no need to verify DFS order
+------------ mediumDG.txt --------------------
+Num Vertices = 50
+Num Edges    = 147
+Work done    = 197
+Has Cycle    = YES
+DFS order = 10 0 7 41 28 22 6 13 23 11 21 30 37 5 43 38 35 9 46 16 47 29 49 34 2 19 15 8 48 12 26 33 40 25 39 18 32 42 31 44
+There is no need to verify DFS order
+------------ 7.txt --------------------
+Num Vertices = 7
+Num Edges    = 12
+Work done    = 19
+Has Cycle    = NO
+DFS topological order = 0 3 1 2 4 5 6
+dfs assert passed
+------------ 2.txt --------------------
+Num Vertices = 5
+Num Edges    = 5
+Work done    = 10
+Has Cycle    = NO
+DFS topological order = 1 3 2 4 5
+dfs assert passed
+------------ 3.txt --------------------
+Num Vertices = 5
+Num Edges    = 6
+Work done    = 11
+Has Cycle    = YES
+This order has no meaning
+GraphTest.java Ends

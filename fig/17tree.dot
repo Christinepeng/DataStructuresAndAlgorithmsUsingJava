@@ -1,0 +1,12 @@
+digraph g {
+A -> B[label = 1.0][xlabel = 1]
+A -> C[label = 3.0][xlabel = 1]
+A -> F[label = 10.0][xlabel = 1]
+B -> C[label = 2.0][xlabel = 2]
+B -> E[label = 6.0][xlabel = 2]
+B -> D[label = 8.0][xlabel = 2]
+B -> G[label = 3.0][xlabel = 2]
+C -> E[label = 5.0][xlabel = 3]
+E -> D[label = 7.0][xlabel = 5]
+E -> F[label = 7.0][xlabel = 5]
+}

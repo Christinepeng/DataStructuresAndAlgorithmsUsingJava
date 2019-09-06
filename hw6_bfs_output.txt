@@ -1,0 +1,52 @@
+GraphTest.java starts
+------------ 1.txt --------------------
+Num Vertices = 5
+Num Edges    = 8
+Work done    = 13
+BFS order    = 01234
+BFS path     = 00022
+------------ 2.txt --------------------
+Num Vertices = 5
+Num Edges    = 5
+Work done    = 10
+BFS order    = 01234
+BFS path     = 00013
+------------ 3.txt --------------------
+Num Vertices = 5
+Num Edges    = 6
+Work done    = 11
+BFS order    = 01234
+BFS path     = 00013
+------------ 4.txt --------------------
+Num Vertices = 3
+Num Edges    = 3
+Work done    = 6
+BFS order    = 012
+BFS path     = 000
+------------ 5.txt --------------------
+Num Vertices = 8
+Num Edges    = 20
+Work done    = 28
+BFS order    = 10324567
+BFS path     = 11103344
+------------ 6.txt --------------------
+Num Vertices = 5
+Num Edges    = 8
+Work done    = 13
+BFS order    = 01234
+BFS path     = 00022
+------------ 7.txt --------------------
+Num Vertices = 7
+Num Edges    = 12
+Work done    = 19
+BFS order    = 0123654
+BFS path     = 0000113
+------------ 50.txt --------------------
+Num Vertices = 6
+Num Edges    = 16
+Work done    = 22
+BFS order    = 015243
+BFS path     = 000012
+GraphTest.java Ends
+
+Process finished with exit code 0

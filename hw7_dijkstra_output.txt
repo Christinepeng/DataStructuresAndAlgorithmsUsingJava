@@ -1,0 +1,123 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57823:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/tools.jar:/Users/pengyiying/GoogleDrive/UCSC/Summer_2019/Data_Structures_and_Algorithms_Using_Java/out/production/Data_Structures_and_Algorithms_Using_Java GraphTest
+GraphTest.java starts
+============ 7.txt ================
+    0    2    3    1    6    4    5
+    F    F    F    F    F    F    F
+  0.0    L    L    L    L    L    L
+    0    2    3    1    6    4    5
+WWorking on Vertex: 0
+    0    2    3    1    6    4    5
+    T    F    F    F    F    F    F
+  0.0  5.0  3.0 14.0    L    L    L
+    0    0    0    0    6    4    5
+WWorking on Vertex: 3
+    0    2    3    1    6    4    5
+    T    F    T    F    F    F    F
+  0.0  5.0  3.0  9.0    L 10.0    L
+    0    0    0    3    6    3    5
+WWorking on Vertex: 2
+    0    2    3    1    6    4    5
+    T    T    T    F    F    F    F
+  0.0  5.0  3.0  9.0    L  8.0  7.0
+    0    0    0    3    6    2    2
+WWorking on Vertex: 5
+    0    2    3    1    6    4    5
+    T    T    T    F    F    F    T
+  0.0  5.0  3.0  9.0 14.0  8.0  7.0
+    0    0    0    3    5    2    2
+WWorking on Vertex: 4
+    0    2    3    1    6    4    5
+    T    T    T    F    F    T    T
+  0.0  5.0  3.0  9.0 13.0  8.0  7.0
+    0    0    0    3    4    2    2
+WWorking on Vertex: 1
+    0    2    3    1    6    4    5
+    T    T    T    T    F    T    T
+  0.0  5.0  3.0  9.0 13.0  8.0  7.0
+    0    0    0    3    4    2    2
+WWorking on Vertex: 6
+    0    2    3    1    6    4    5
+    T    T    T    T    T    T    T
+  0.0  5.0  3.0  9.0 13.0  8.0  7.0
+    0    0    0    3    4    2    2
+The best way to go from 0 to city 0 is follows
+0 - > 2  Cost = 5.0 = 5.0
+The best way to go from 0 to city 0 is follows
+0 - > 3  Cost = 3.0 = 3.0
+The best way to go from 0 to city 0 is follows
+0 - > 3 - > 1  Cost = 3.0 + 6.0 = 9.0
+The best way to go from 0 to city 0 is follows
+0 - > 2 - > 4 - > 6  Cost = 5.0 + 3.0 + 5.0 = 13.0
+The best way to go from 0 to city 0 is follows
+0 - > 2 - > 4  Cost = 5.0 + 3.0 = 8.0
+The best way to go from 0 to city 0 is follows
+0 - > 2 - > 5  Cost = 5.0 + 2.0 = 7.0
+WEIGHTED_DIRECTED GRAPH
+Num Vertices = 7
+Num Edges    = 12
+Word done    = 12
+numberOfNodeAddedToHeap = 19
+Shortest path from city 0 to city 6 = 13.0
+You can see dot file at /Users/pengyiying/GoogleDrive/UCSC/Summer_2019/Data_Structures_and_Algorithms_Using_Java/fig/7tree.dot
+============ 17.txt ================
+    C    D    E    B    G    F    A
+    F    F    F    F    F    F    F
+    L    L    L    L    L    L  0.0
+    C    D    E    B    G    F    A
+WWorking on Vertex: A
+    C    D    E    B    G    F    A
+    F    F    F    F    F    F    T
+  3.0    L    L  1.0    L 10.0  0.0
+    A    D    E    A    G    A    A
+WWorking on Vertex: B
+    C    D    E    B    G    F    A
+    F    F    F    T    F    F    T
+  2.0  8.0  6.0  1.0  3.0 10.0  0.0
+    B    B    B    A    B    A    A
+WWorking on Vertex: C
+    C    D    E    B    G    F    A
+    T    F    F    T    F    F    T
+  2.0  8.0  5.0  1.0  3.0 10.0  0.0
+    B    B    C    A    B    A    A
+WWorking on Vertex: G
+    C    D    E    B    G    F    A
+    T    F    F    T    T    F    T
+  2.0  8.0  5.0  1.0  3.0 10.0  0.0
+    B    B    C    A    B    A    A
+WWorking on Vertex: E
+    C    D    E    B    G    F    A
+    T    F    T    T    T    F    T
+  2.0  7.0  5.0  1.0  3.0  7.0  0.0
+    B    E    C    A    B    E    A
+WWorking on Vertex: F
+    C    D    E    B    G    F    A
+    T    F    T    T    T    T    T
+  2.0  7.0  5.0  1.0  3.0  7.0  0.0
+    B    E    C    A    B    E    A
+WWorking on Vertex: D
+    C    D    E    B    G    F    A
+    T    T    T    T    T    T    T
+  2.0  7.0  5.0  1.0  3.0  7.0  0.0
+    B    E    C    A    B    E    A
+The best way to go from A to city A is follows
+A - > B - > C  Cost = 1.0 + 1.0 = 2.0
+The best way to go from A to city A is follows
+A - > B - > C - > E - > D  Cost = 1.0 + 1.0 + 3.0 + 2.0 = 7.0
+The best way to go from A to city A is follows
+A - > B - > C - > E  Cost = 1.0 + 1.0 + 3.0 = 5.0
+The best way to go from A to city A is follows
+A - > B  Cost = 1.0 = 1.0
+The best way to go from A to city A is follows
+A - > B - > G  Cost = 1.0 + 2.0 = 3.0
+The best way to go from A to city A is follows
+A - > B - > C - > E - > F  Cost = 1.0 + 1.0 + 3.0 + 2.0 = 7.0
+WEIGHTED_UNDIRECTED GRAPH
+Num Vertices = 7
+Num Edges    = 26
+Word done    = 26
+numberOfNodeAddedToHeap = 33
+Shortest path from city A to city F = 7.0
+You can see dot file at /Users/pengyiying/GoogleDrive/UCSC/Summer_2019/Data_Structures_and_Algorithms_Using_Java/fig/17tree.dot
+GraphTest.java Ends
+
+Process finished with exit code 0

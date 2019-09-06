@@ -1,0 +1,93 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52476:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/tools.jar:/Users/pengyiying/GoogleDrive/UCSC/Summer_2019/Data_Structures_and_Algorithms_Using_Java/out/production/Data_Structures_and_Algorithms_Using_Java HauffmanTest
+HauffmanTest.java
+=========================== a ============================
+a occurs  1 times
+================================================================
+=================== Tree built in this order ====================
+Leaf    node 1 Character is aWeight is
+Internal node 2 left  (1) rightnull Weight = 1
+==== Tree has 2nodes ===============
+============ Code for each character in a ===============
+a Has Code  0
+================================================================
+======= Original String ========
+a
+======= Decoded String =========
+0
+======== Recovered String ==========
+a
+Original string cost = 7.0
+Decoded  string cost = 1.0
+% reduction = 85.71428571428571
+=========================== aba ============================
+a occurs  2 times
+b occurs  1 times
+================================================================
+=================== Tree built in this order ====================
+Leaf    node 1 Character is aWeight is
+Leaf    node 2 Character is bWeight is
+Internal node 3 left  (1) righta(2) Weight = 3
+==== Tree has 3nodes ===============
+============ Code for each character in aba ===============
+a Has Code  1
+b Has Code  0
+================================================================
+======= Original String ========
+aba
+======= Decoded String =========
+101
+======== Recovered String ==========
+aba
+Original string cost = 21.0
+Decoded  string cost = 3.0
+% reduction = 85.71428571428571
+=========================== aaabbggggghhhhaaaggggaaaaa_+@# ============================
+@ occurs  1 times
+a occurs  11 times
+b occurs  2 times
+# occurs  1 times
+g occurs  9 times
+h occurs  4 times
++ occurs  1 times
+_ occurs  1 times
+================================================================
+=================== Tree built in this order ====================
+Leaf    node 1 Character is @Weight is
+Leaf    node 2 Character is aWeight is
+Leaf    node 3 Character is bWeight is
+Leaf    node 4 Character is #Weight is
+Leaf    node 5 Character is gWeight is
+Leaf    node 6 Character is hWeight is
+Leaf    node 7 Character is +Weight is
+Leaf    node 8 Character is _Weight is
+Internal node 9 left  (1) right#(1) Weight = 2
+Internal node 10 left  (1) right+(1) Weight = 2
+Internal node 11 left  (2) right (2) Weight = 4
+Internal node 12 left  (2) right (4) Weight = 6
+Internal node 13 left  (4) right (6) Weight = 10
+Internal node 14 left  (9) right (10) Weight = 19
+Internal node 15 left  (11) right (19) Weight = 30
+==== Tree has 15nodes ===============
+============ Code for each character in aaabbggggghhhhaaaggggaaaaa_+@# ===============
+@ Has Code  1
+a Has Code  0
+b Has Code  1
+# Has Code  1
+g Has Code  1
+h Has Code  1
++ Has Code  1
+_ Has Code  1
+================================================================
+======= Original String ========
+aaabbggggghhhhaaaggggaaaaa_+@#
+======= Decoded String =========
+000111111111110001111000001111
+Exception in thread "main" java.lang.IllegalArgumentException: Assert fail
+	at IntUtil.myassert(IntUtil.java:21)
+	at Hauffman.encodeACharacter(Hauffman.java:243)
+	at Hauffman.decode(Hauffman.java:267)
+	at HauffmanTest.test1(HauffmanTest.java:17)
+	at HauffmanTest.testbed(HauffmanTest.java:31)
+	at HauffmanTest.main(HauffmanTest.java:44)
+
+Process finished with exit code 1

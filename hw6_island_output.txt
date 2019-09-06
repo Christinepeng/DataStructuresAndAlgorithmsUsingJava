@@ -1,0 +1,131 @@
+Island problem STARTS
+--------------- Start -------------------
+Number of islands = 0 using 4 neighbors
+Number of Recursion = 0
+Number of Grid access = 0
+--------------- Start -------------------
+1
+Number of islands = 1 using 4 neighbors
+Number of Recursion = 1
+Number of Grid access = 1
+0
+--------------- Start -------------------
+11111
+Number of islands = 1 using 4 neighbors
+Number of Recursion = 5
+Number of Grid access = 5
+01111
+--------------- Start -------------------
+11111
+11111
+11111
+Number of islands = 1 using 4 neighbors
+Number of Recursion = 15
+Number of Grid access = 15
+01111
+11111
+11111
+--------------- Start -------------------
+00000
+00000
+00000
+Number of islands = 0 using 4 neighbors
+Number of Recursion = 0
+Number of Grid access = 15
+00000
+00000
+00000
+--------------- Start -------------------
+11111
+00000
+11111
+Number of islands = 2 using 4 neighbors
+Number of Recursion = 10
+Number of Grid access = 25
+01111
+00000
+02222
+--------------- Start -------------------
+10101
+01010
+10101
+Number of islands = 8 using 4 neighbors
+Number of Recursion = 8
+Number of Grid access = 37
+00000
+00000
+00000
+--------------- Start -------------------
+10101
+Number of islands = 3 using 4 neighbors
+Number of Recursion = 3
+Number of Grid access = 9
+00000
+--------------- Start -------------------
+1000
+0100
+0010
+0001
+Number of islands = 4 using 4 neighbors
+Number of Recursion = 4
+Number of Grid access = 28
+0000
+0000
+0000
+0000
+--------------- Start -------------------
+11110
+11010
+11000
+00000
+Number of islands = 1 using 4 neighbors
+Number of Recursion = 9
+Number of Grid access = 29
+01110
+11010
+11000
+00000
+--------------- Start -------------------
+11000
+11000
+00100
+00011
+Number of islands = 3 using 4 neighbors
+Number of Recursion = 7
+Number of Grid access = 31
+01000
+11000
+00000
+00003
+--------------- Start -------------------
+11000
+01001
+10011
+00000
+10101
+Number of islands = 5 using 8 neighbors
+Number of Recursion = 10
+Number of Grid access = 61
+01000
+01000
+10022
+00000
+00000
+--------------- Start -------------------
+11000
+01001
+10011
+00000
+10110
+Number of islands = 4 using 8 neighbors
+Number of Recursion = 10
+Number of Grid access = 61
+01000
+01000
+10022
+00000
+00040
+All Island tests passed. You now understand why DFS is required
+Island problem ENDS
+
+Process finished with exit code 0
